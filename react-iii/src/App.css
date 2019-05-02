@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+  pointer-events: none;
+  position: fixed;
+  top: 5px;
+  left: 140px
+  
+}
+header {
+  background-color: rgb(75, 16, 16) ;
+  height: 5rem;
+  width: 100vw;
+  top: 0px;
+  position: fixed;
+  left: 0;
+  text-align: left;
+   
+}
+.h1 {
+  margin-left: 50px;
+  color: rgb(122, 202, 248)
+}
+.main {
+  position: center;
+  display: flex;
+  width: 60vw;
+  height: 60vh;
+  background-color: whitesmoke;
+  align-items: flex-start;
+  margin-top: 9em;
+}
+.num {
+  position: absolute;
+  right: 10em;
+}
+.mvs {
+ margin-left: 3em;
+}
+.fonts {
+  margin-left: 4em;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+   
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px;
+}
+h5 {
+  margin: 5px;
+  font-size: 15px
+}
+p {
+  margin: 8px;
+  font-size: 20px
+}
+.btn1{
+  font-weight: 900;
+  color: white;
+  border: none;
+  background: none;
+  font-size: 20px;
+  position: absolute;
+  left: 11rem;
+  margin: 10px
+}
+.btn5{
+  font-weight: 900;
+  color: white;
+  border: none;
+  background: none;
+  margin-left: 17em;
+  font-size: 20px;
+  position: absolute;
+  right: 11rem;
+  margin: 10px
+}
+  
+.btn2 {
+  margin: 8px;
+  background-color: rgb(13, 158, 206);
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
